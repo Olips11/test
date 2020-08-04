@@ -1,0 +1,82 @@
+.page {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.list {
+  list-style: none;
+  max-width: 100%;
+  margin-top: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+.section-barba {
+  padding-bottom: 84px;
+}
+
+.barba-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.barba-list .item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .barba-list .item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.barba-image {
+  width: 100%;
+}
+
+.barba-title.current::before {
+  background: #303030;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  border-radius: 2px;
+  left: 60px;
+  bottom: 60px;
+}
+/*# sourceMappingURL=main.css.map */

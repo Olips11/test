@@ -1,0 +1,42 @@
+.section-barba {
+  padding-bottom: 84px;
+}
+
+.barba-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 21px;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #303030;
+}
+
+.barba-list .item {
+  align-items: center;
+}
+
+.barba-list .item:not(:last-child) {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+}
+
+.barba-image {
+  width: 100%;
+}
+
+.barba-title.current::before {
+  background: #303030;
+  //   position: absolute;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  border-radius: 2px;
+  left: 60px;
+  bottom: 60px;
+}
