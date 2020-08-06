@@ -7,8 +7,8 @@
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 31px;
+  padding-right: 31px;
   margin-left: auto;
   margin-right: auto;
 
@@ -18,16 +18,19 @@
 
   @media screen and (min-width: 768px) {
     max-width: 768px;
+    padding-left: 39px;
+    padding-right: 39px;
   }
 
-  @media screen and (min-width: 1200px) {
-    max-width: 1200px;
+  @media screen and (min-width: 1170px) {
+    max-width: 1170px;
+    padding-left: 55px;
+    padding-right: 55px;
   }
 }
 
 .list {
   list-style: none;
-  max-width: 100%;
   margin-top: 0px;
   padding: 0;
   margin: 0;
